@@ -1,4 +1,4 @@
-# Leah's Neovim Configuration
+# Neovim Configuration
 
 There shouldn't be any prerequisites to cloning and using this configuration, it should just _work_.
 
