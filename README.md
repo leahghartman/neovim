@@ -25,7 +25,7 @@ sudo apt-get install texlive-fonts-recommended
 sudo apt-get install texlive-fonts-extra
 ```
 
-Finally, I'd install the following, which just contains a veery large collection of add-on packages. 
+Finally, I'd install the following, which just contains a very large collection of add-on packages. 
 
 ```
 sudo apt-get install texlive-latex-extra
