@@ -1,2 +1,2 @@
-require("nvimconfig.remap")
-require("nvimconfig")
+require("neo.core")
+require("neo.lazy")
