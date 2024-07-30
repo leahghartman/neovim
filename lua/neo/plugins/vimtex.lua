@@ -4,6 +4,6 @@ return {
 
   init = function()
     vim.g.vimtex_view_method = "zathura" -- change to "zathura" when on Linux
-    vim.maplocalleader = " "
+    vim.g.maplocalleader = " "
   end
 }
