@@ -13,7 +13,9 @@ opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting a new one
 
 -- Line Wrapping
-opt.wrap = true -- disable line wrapping
+opt.wrap = true
+opt.breakindent = true
+opt.linebreak = true
 
 -- Search Settings
 opt.ignorecase = true -- ignore case when searching
@@ -36,4 +38,3 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- Turn off swapfile
 opt.swapfile = false
-

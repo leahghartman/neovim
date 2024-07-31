@@ -1,11 +1,11 @@
 vim.g.mapleader = " " -- set the leader key to space
 vim.g.localleader = " " -- set the local leader key to space
+vim.g.maplocalleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
 ---------------------
 -- General Keymaps -------------------
-
 
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
