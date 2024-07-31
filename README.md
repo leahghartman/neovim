@@ -10,8 +10,7 @@ If you're wanting to use this Neovim configuration for LaTeX, then you need to m
 - pdflatex
 - any LaTeX packages you like
 
-It's worth noting that latexmk and zathura can be individually installed on your system, but when it comes to pdflatex and LaTeX packages, I recommend installing the TexLive base using the following, which will automatically install pdflatex:
-
+It's worth noting that latexmk and Zathura can be individually installed on your system, but when it comes to pdflatex and LaTeX packages, I recommend installing the TexLive base using the following, which will automatically install pdflatex:
 
 ```
 sudo apt-get install texlive-latex-base
@@ -19,8 +18,7 @@ sudo apt-get install texlive-latex-base
 
 This package contains packages that are either mandated by the core LaTeX team, or very widely used and strongly recommended in practice.
 
-I would also recommend installing the recommended and extra fonts to avoid running into the errors when trying to use pdflatex on latex files with more fonts.
-
+I would also recommend installing the recommended and extra fonts to avoid running into errors when trying to use pdflatex on LaTeX files with more fonts.
 
 ```
 sudo apt-get install texlive-fonts-recommended
@@ -33,7 +31,7 @@ Finally, I'd install the following, which just contains a very large collection 
 sudo apt-get install texlive-latex-extra
 ```
 
-This also reinstalls some of the things we did above, but that's fine. You should now be able to create PDF files from latex sources using pdflatex.
+This also reinstalls some of the things we did above, but that's fine. You should now be able to create PDF files from LaTeX sources using pdflatex.
 
 ## Working With MacOS
 
