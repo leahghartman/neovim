@@ -37,4 +37,6 @@ This also reinstalls some of the things we did above, but that's fine. You shoul
 
 ## Working With MacOS
 
-I work on both MacOS and Linux, so my configuration changes slightly between my two devices. Mostly, this is just because Zathura (for use with VimTeX) is just really weird to use on MacOS, so I use Skim instead. So, depending on which device I pushed the config from, you might see one or the other. Just change the 'vimtex_view_method' in the vimtex.lua file under the 'plugins' folder to whichever you want to use for your system.
+I work on both MacOS and Linux, and my config might occasionally reflect that, but I've attempted to add comments wherever that may have occurred. For VimTeX, I was using Skim on MacOS as Zathura had previously presented some issues. However, I'm happy to say those have been fixed, so any differences between the configs for the two systems are pretty minute. 
+
+If you're working with MacOS and want to use Zathura as your PDF viewer for VimTeX, either run ```:help vimtex-faq-zathura-macos``` or visit [this GitHub issue](https://github.com/zegervdv/homebrew-zathura/issues/99), which poses the solution I ended up implementing.
